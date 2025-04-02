@@ -1,0 +1,74 @@
+# MAIN OPTIONS:
+css=/cgit.css
+logo=/cgit.png
+favicon=/favicon.ico
+root-desc="CGIT For [THE_ARMADA] - Current Public Programming Code"
+root-readme=/usr/share/cgit/README.md
+root-title=THE ARMADA CGIT Code Repositories
+#clone-url=git://$HOSTNAME/$CGIT_REPO_URL git@$HOSTNAME:$CGIT_REPO_URL
+clone-url=http://$HTTP_HOST$SCRIPT_NAME/$CGIT_REPO_URL
+virtual-root=/
+
+# FILTERS:
+source-filter=/usr/lib/cgit/filters/syntax-highlighting.py
+about-filter=/usr/lib/cgit/filters/about-formatting.sh
+
+# README's:
+readme=:README.md
+readme=:readme.md
+readme=:README.mkd
+readme=:readme.mkd
+readme=:README.rst
+readme=:readme.rst
+readme=:README.html
+readme=:readme.html
+readme=:README.htm
+readme=:readme.htm
+readme=:README.txt
+readme=:readme.txt
+readme=:README
+readme=:readme
+	#readme=:INSTALL.md
+	#readme=:install.md
+	#readme=:INSTALL.mkd
+	#readme=:install.mkd
+	#readme=:INSTALL.rst
+	#readme=:install.rst
+	#readme=:INSTALL.html
+	#readme=:install.html
+	#readme=:INSTALL.htm
+	#readme=:install.htm
+	#readme=:INSTALL.txt
+	#readme=:install.txt
+	#readme=:INSTALL
+	#readme=:install
+
+# MIME TYPES:
+mimetype-file=/etc/mime.types
+mimetype.gif=image/gif
+mimetype.html=text/html
+mimetype.jpg=image/jpeg
+mimetype.jpeg=image/jpeg
+mimetype.pdf=application/pdf
+mimetype.png=image/png
+mimetype.svg=image/svg+xml
+
+side-by-side-diffs=1
+enable-git-config=1
+enable-commit-graph=1
+enable-log-filecount=1
+enable-log-linecount=1
+enable-http-clone=1
+enable-remote-branches=1
+enable-subject-links=1
+enable-index-links=1
+enable-follow-links=1
+enable-tree-linenumbers=1
+branch-sort=age
+remove-suffix=1
+local-time=1
+max-stats=quarter
+
+include=/etc/cgitrepos
+
+#scan-path=/ammos/repos
