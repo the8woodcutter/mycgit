@@ -1,6 +1,6 @@
 # MAIN OPTIONS:
 css=/cgit.css
-logo=/cgit.png
+logo=/wizard.png
 favicon=/favicon.ico
 root-desc="CGIT For [THE_ARMADA] - Current Public Programming Code"
 root-readme=/usr/share/cgit/README.md
