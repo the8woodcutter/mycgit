@@ -5,13 +5,17 @@ favicon=/favicon.ico
 root-desc="CGIT For [THE_ARMADA] - Current Public Programming Code"
 root-readme=/usr/share/cgit/README.md
 root-title=THE ARMADA CGIT Code Repositories
-#clone-url=git://$HOSTNAME/$CGIT_REPO_URL git@$HOSTNAME:$CGIT_REPO_URL
-clone-url=http://$HTTP_HOST$SCRIPT_NAME/$CGIT_REPO_URL
+clone-url=https://$HTTP_HOST/$CGIT_REPO_URL ssh://git@cgit.packets.cc:$CGIT_REPO_URL
 virtual-root=/
+snapshots=tar.gz zip
 
 # FILTERS:
 source-filter=/usr/lib/cgit/filters/syntax-highlighting.py
 about-filter=/usr/lib/cgit/filters/about-formatting.sh
+# REPO FILTERS:
+repo.email-filter=/usr/lib/cgit/filter/email-libravatar.lua
+repo.commit-filter=/usr/lib/cgit/filters/commit-links.sh
+repo.owner-filter=/usr/lib/cgit/filters/owner-links.lua
 
 # README's:
 readme=:README.md

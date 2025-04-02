@@ -5,20 +5,20 @@ section=Python Projects
 repo.url=pyblog
 repo.path=/srv/git/pyblog/.git
 repo.desc="PyBlog - Manage an entire blog with just one python script!"
-repo.owner=chunk@inspirenet.org
-repo.readme=README.md
+repo.owner=chunk
+repo.readme=/srv/git/pyblog/README.md
 
 repo.url=mrbot
 repo.path=/srv/git/mrbot/.git
 repo.desc="Chunk's dog, his XMPP bot using SliXMPP python library"
-repo.owner=chunk@inspirenet.org
-repo.readme=README.md
+repo.owner=chunk
+repo.readme=/srv/git/mrbot/README.md
 
 repo.url=pubsubtools
 repo.path=/srv/git/pubsubtools/.git
 repo.desc="A SliXMPP attempt at making a useful PubSub interface for XMPP servers as a bot"
-repo.owner=chunk@inspirenet.org
-repo.readme=README.md
+repo.owner=chunk
+repo.readme=/srv/git/pubsubtools/README.md
 
 
 section=Websites/Web Applications
@@ -26,6 +26,6 @@ section=Websites/Web Applications
 repo.url=the8woodcutter
 repo.path=/srv/git/the8woodcutter/.git
 repo.desc="The Woodcutter's Own Personal Blog - Using BashBlog (currently) and running for a few years now"
-repo.owner=thewoodcutter@ymail.com
-repo.readme=README.md
+repo.owner=chunk
+repo.readme=/srv/git/the8woodcutter/README.md
 
