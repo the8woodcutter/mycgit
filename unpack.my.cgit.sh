@@ -14,9 +14,6 @@ sudo cp etc/nginx/sites-available/cgit.conf /etc/nginx/sites-available/
 sudo ln -n /etc/nginx/sites-available/cgit.conf /etc/nginx/sites-enabled/
 sudo nginx -t
 
-cd /srv/git && bash git.em.sh
-sudo chown -R $USER:$USER /srv/git
+cd srv/git && bash git.em.sh
 
-echo && echo "sudo systemctl restart nginx ???" && echo
-echo "and add to /etc/hosts" && echo "and get a certificate" && echo
-echo "Finished." && echo
+echo && echo "Finished." && echo
