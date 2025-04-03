@@ -18,21 +18,23 @@ div#cgit {
 	margin: 0em;
 	font-family: 'spleen', monospace;
 	font-size: 11pt;
-	font-weight: 500;
+	font-weight: 400;
 	color: #223;
 	background: ghostwhite;
 	padding: 4px;
 }
 
 div#cgit a {
-	color: blue;
+	color: #bb300a;
 	text-decoration: none;
 }
 
 div#cgit a:hover {
-	text-decoration: underline;
 	color: black;
-	text-decoration-color: darkslateblue;
+	text-decoration: underline;
+	text-decoration-color: darkmagenta;
+	text-decoration-thickness: 2px;
+	font-weight: 500;
 }
 
 div#cgit table {
@@ -246,13 +248,12 @@ div#cgit table.list td a {
 
 div#cgit table.list td a.ls-dir {
 	font-weight: bold;
-	color: #00f;
+	color: black;
 }
 
 div#cgit table.list td a:hover {
 	color: black;
 	text-decoration-color: darkslateblue;
-	color: black;
 }
 
 div#cgit img {
