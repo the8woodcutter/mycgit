@@ -31,6 +31,9 @@ div#cgit a {
 
 div#cgit a:hover {
 	text-decoration: underline;
+	color: orangered;
+	text-decoration-color: darkred;
+	text-decoration-style: dashed;
 }
 
 div#cgit table {
