@@ -1,6 +1,6 @@
 # MAIN OPTIONS:
 css=/cgit.css
-logo=/wizard.png
+logo=/logo.png
 favicon=/favicon.ico
 root-desc="New CGIT Instance!  Let's see what we can create with CGIT :D" ✫  #webdev #php #mysql #2003 #webmaster #programmer #custom-colorz ✫
 root-readme=/usr/share/cgit/README.md
