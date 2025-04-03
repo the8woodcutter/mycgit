@@ -11,7 +11,7 @@ sudo mkdir -p usr/lib/cgit
 sudo cp /etc/cgitrc /etc/cgitrepos etc/
 sudo cp -r /usr/share/cgit/* usr/share/cgit/
 sudo cp -r /usr/lib/cgit/* usr/lib/cgit/
-sudo cp /etc/nginx/sites-available/cgit.conf etc/nginx/sites-available/
+#sudo cp /etc/nginx/sites-available/cgit.conf etc/nginx/sites-available/
 sudo mkdir -p srv/git
 cp git.em.sh srv/git
 

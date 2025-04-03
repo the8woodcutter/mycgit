@@ -31,9 +31,8 @@ div#cgit a {
 
 div#cgit a:hover {
 	text-decoration: underline;
-	color: orangered;
-	text-decoration-color: darkred;
-	text-decoration-style: dashed;
+	color: black;
+	text-decoration-color: darkslateblue;
 }
 
 div#cgit table {
@@ -251,11 +250,13 @@ div#cgit table.list td a.ls-dir {
 }
 
 div#cgit table.list td a:hover {
-	color: #00f;
+	color: black;
+	text-decoration-color: darkslateblue;
+	color: black;
 }
 
 div#cgit img {
-	border: 1px solid black;
+	border: 1px solid darkgray;
 }
 
 div#cgit input#switch-btn {
@@ -350,7 +351,10 @@ div#cgit table.ssdiff td.lineno a {
 }
 
 div#cgit table.blob td.linenumbers a:hover,
-div#cgit table.ssdiff td.lineno a:hover {
+div#cgit table.ssdiff td.lineno a:hover 	text-decoration-color: darkslateblue;
+color: black;{
+	color: black;
+	text-decoration-color: darkslateblue;
 	color: black;
 }
 
@@ -695,6 +699,8 @@ div#cgit div.footer a {
 
 div#cgit div.footer a:hover {
 	text-decoration: underline;
+	text-decoration-color: darkslateblue;
+	color: black;
 }
 
 div#cgit a.branch-deco {
