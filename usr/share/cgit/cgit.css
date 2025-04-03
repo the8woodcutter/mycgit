@@ -8,12 +8,17 @@
 	src: url('Px_IBM_PS2thin4.ttf');
 }
 
+@font-face {
+	font-family: 'spleen', monospace;
+	src: url('spleen-16x32.otf');
+}
+
 div#cgit {
 	padding: 0em;
 	margin: 0em;
-	font-family: 'PS2thin4', monospace;
+	font-family: 'spleen', monospace;
 	font-size: 11pt;
-	font-weight: 600;
+	font-weight: 500;
 	color: #223;
 	background: ghostwhite;
 	padding: 4px;
@@ -194,7 +199,7 @@ div#cgit table.list td {
 }
 
 div#cgit table.list td.commitgraph {
-	font-family: 'larabie', monospace;
+	font-family: 'PS2thin4', monospace;
 	white-space: pre;
 }
 
@@ -223,12 +228,12 @@ div#cgit table.list td.commitgraph .column6 {
 }
 
 div#cgit table.list td.logsubject {
-	font-family: 'larabie', monospace;
+	font-family: 'PS2thin4', monospace;
 	font-weight: bold;
 }
 
 div#cgit table.list td.logmsg {
-	font-family: 'larabie', monospace;
+	font-family: 'PS2thin4', monospace;
 	white-space: pre;
 	padding: 0 0.5em;
 }
