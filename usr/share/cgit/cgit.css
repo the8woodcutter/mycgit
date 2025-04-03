@@ -3,12 +3,17 @@
 	src: url('larabie.ttf');
 }
 
+@font-face {
+	font-family: 'PS2thin4', monospace;
+	src: url('Px_IBM_PS2thin4.ttf');
+}
+
 div#cgit {
 	padding: 0em;
 	margin: 0em;
-	font-family: 'larabie', monospace;
+	font-family: 'PS2thin4', monospace;
 	font-size: 11pt;
-	font-weight: 500;
+	font-weight: 600;
 	color: #223;
 	background: ghostwhite;
 	padding: 4px;
@@ -41,7 +46,8 @@ div#cgit table#header td.main {
 	font-size: 250%;
 	padding-left: 10px;
 	white-space: nowrap;
-	font-weight: 700;
+	font-weight: 900;
+	font-family: 'larabie', monospace;
 }
 
 div#cgit table#header td.main a {
@@ -64,6 +70,9 @@ div#cgit table#header td.form select {
 
 div#cgit table#header td.sub {
 	color: #777;
+	font-family: 'larabie', monospace;
+	font-weight: 500;
+	font-size: 95%;
 	border-top: solid 1px #ccc;
 	padding-left: 10px;
 }
