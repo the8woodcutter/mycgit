@@ -2,9 +2,9 @@
 css=/cgit.css
 logo=/wizard.png
 favicon=/favicon.ico
-root-desc="CGIT For [THE_ARMADA] - Current Public Programming Code"
+root-desc="New CGIT Instance!  Let's see what we can create with CGIT :D" ✫  #webdev #php #mysql #2003 #webmaster #programmer #custom-colorz ✫
 root-readme=/usr/share/cgit/README.md
-root-title=THE ARMADA CGIT Code Repositories
+root-title=✮ Cmdr_Chunk's Public Codez ✮
 clone-url=https://$HTTP_HOST/$CGIT_REPO_URL ssh://git@cgit.packets.cc:$CGIT_REPO_URL
 virtual-root=/
 snapshots=tar.gz zip
@@ -57,7 +57,6 @@ mimetype.pdf=application/pdf
 mimetype.png=image/png
 mimetype.svg=image/svg+xml
 
-side-by-side-diffs=1
 enable-git-config=1
 enable-commit-graph=1
 enable-log-filecount=1
@@ -72,7 +71,9 @@ branch-sort=age
 remove-suffix=1
 local-time=1
 max-stats=quarter
+side-by-side-diffs=1
 
 include=/etc/cgitrepos
 
-#scan-path=/ammos/repos
+# this expects your .git/config filled out and will duplicate repo entries:
+#scan-path=/srv/git

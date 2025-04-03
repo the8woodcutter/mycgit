@@ -31,6 +31,6 @@ repo.readme=/srv/git/the8woodcutter/README.md
 
 repo.url=mycgit
 repo.path=/srv/git/mycgit/.git
-repo.desc=" MAKE ME A CGIT HOMIE G "
+repo.desc="MAKE ME A CGIT HOMIE G!!"
 repo.owner=chunk
 repo.readme=/srv/git/mycgit/README.md
