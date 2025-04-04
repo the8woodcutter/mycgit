@@ -10,6 +10,9 @@ sudo cp -r usr/share/cgit/* /usr/share/cgit/
 
 sudo cp etc/cgitrc /etc
 sudo cp etc/cgitrepos /etc
+sudo cp etc/cgit-auth-secret /etc
+
+echo && echo "Change `/etc/cgit-auth-secret` !" && echo
 
 #sudo cp etc/nginx/sites-available/cgit.conf /etc/nginx/sites-available/
 #sudo rm /etc/nginx/sites-enabled/cgit.conf
