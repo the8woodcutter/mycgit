@@ -2,11 +2,9 @@
 # Assumes Debian 12.9:
 ## Date is April 2nd 2025
 
-sudo apt install cgit python3-markdown
-
-sudo rm -rf /usr/lib/cgit/* /usr/share/cgit/*
+sudo rm -r /usr/lib/cgit/* /var/www/html/cgit/*
 sudo cp -r usr/lib/cgit/* /usr/lib/cgit/
-sudo cp -r usr/share/cgit/* /usr/share/cgit/
+sudo cp -r var/www/html/cgit/* /var/www/html/cgit/
 
 sudo cp etc/cgitrc /etc
 sudo cp etc/cgitrepos /etc

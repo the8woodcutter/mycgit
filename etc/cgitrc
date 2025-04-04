@@ -5,7 +5,8 @@ favicon=/favicon.ico
 root-desc="New CGIT Instance!  Let's see what we can create with CGIT :D" ✫  #webdev #php #mysql #2003 #webmaster #programmer #custom-colorz ✫
 root-readme=/usr/share/cgit/README.md
 root-title=✮ Cmdr_Chunk's Public Codez ✮
-clone-url=https://$HTTP_HOST/$CGIT_REPO_URL ssh://git@cgit.packets.cc:$CGIT_REPO_URL
+clone-url=https://$HTTP_HOST/$CGIT_REPO_URL 
+	#ssh://git@cgit.packets.cc:$CGIT_REPO_URL
 virtual-root=/
 snapshots=tar.gz zip
 

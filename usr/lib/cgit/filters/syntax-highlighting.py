@@ -41,10 +41,7 @@ try:
 except ClassNotFound:
 	# check if there is any shebang
 	if data[0:2] == '#!':
-		try:
-			lexer = guess_lexer(data)
-		except ClassNotFound:
-			lexer = TextLexer()
+		lexer = guess_lexer(data)
 	else:
 		lexer = TextLexer()
 except TypeError:
