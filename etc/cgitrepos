@@ -5,19 +5,19 @@ section=Python Projects
 repo.url=pyblog
 repo.path=/srv/git/pyblog/.git
 repo.desc=PyBlog - Manage an entire blog with just one python script!
-repo.owner=chunk
+repo.owner=chunk@inspirenet.org
 repo.readme=/srv/git/pyblog/README.md
 
 repo.url=mrbot
 repo.path=/srv/git/mrbot/.git
 repo.desc=Chunk's happy XMPP bot made using SliXMPP named mrBot
-repo.owner=chunk
+repo.owner=chunk@inspirenet.org
 repo.readme=/srv/git/mrbot/README.md
 
 repo.url=pubsubtools
 repo.path=/srv/git/pubsubtools/.git
 repo.desc=A SliXMPP bot method for managing XMPP PubSub nodes and commands
-repo.owner=chunk
+repo.owner=chunk@inspirenet.org
 repo.readme=/srv/git/pubsubtools/README.md
 
 
@@ -26,11 +26,32 @@ section=Websites/Web Applications
 repo.url=the8woodcutter
 repo.path=/srv/git/the8woodcutter/.git
 repo.desc=The Woodcutter's Own Personal Blog - Using BashBlog (currently) and running for a few years now
-repo.owner=chunk
+repo.owner=chunk@inspirenet.org
 repo.readme=/srv/git/the8woodcutter/README.md
 
 repo.url=mycgit
 repo.path=/srv/git/mycgit/.git
 repo.desc=Chunk's cgit project files and scripts
-repo.owner=chunk
+repo.owner=chunk@inspirenet.org
 repo.readme=/srv/git/mycgit/README.md
+
+
+section=Mirrored Repositories
+
+repo.url=i2pd-tools
+repo.path=/srv/git/i2pd-tools/.git
+repo.desc=i2pd: This repository contains tools that supplement i2pd.
+repo.owner=chunk@inspirenet.org
+repo.readme=/srv/git/i2pd-tools/README.md
+
+repo.url=mod_deepweb
+repo.path=/srv/git/mod_deepweb/.git
+repo.desc=XMPP: Fork of mod_onions that adds I2P support.
+repo.owner=chunk@inspirenet.org
+repo.readme=/srv/git/mod_deepweb/README.md
+
+repo.url=mod_i2p
+repo.path=/srv/git/mod_i2p/.git
+repo.desc=XMPP: 'Stage-Alpha' summary: s2s to I2P hidden services ...
+repo.owner=chunk@inspirenet.org
+repo.readme=/srv/git/mod_i2p/README.markdown
