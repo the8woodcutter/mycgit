@@ -4,19 +4,19 @@ section=Python Projects
 
 repo.url=pyblog
 repo.path=/srv/git/pyblog/.git
-repo.desc="PyBlog - Manage an entire blog with just one python script!"
+repo.desc=PyBlog - Manage an entire blog with just one python script!
 repo.owner=chunk
 repo.readme=/srv/git/pyblog/README.md
 
 repo.url=mrbot
 repo.path=/srv/git/mrbot/.git
-repo.desc="Chunk's dog, his XMPP bot using SliXMPP python library"
+repo.desc=Chunk's happy XMPP bot made using SliXMPP named mrBot
 repo.owner=chunk
 repo.readme=/srv/git/mrbot/README.md
 
 repo.url=pubsubtools
 repo.path=/srv/git/pubsubtools/.git
-repo.desc="A SliXMPP attempt at making a useful PubSub interface for XMPP servers as a bot"
+repo.desc=A SliXMPP bot method for managing XMPP PubSub nodes and commands
 repo.owner=chunk
 repo.readme=/srv/git/pubsubtools/README.md
 
@@ -25,12 +25,12 @@ section=Websites/Web Applications
 
 repo.url=the8woodcutter
 repo.path=/srv/git/the8woodcutter/.git
-repo.desc="The Woodcutter's Own Personal Blog - Using BashBlog (currently) and running for a few years now"
+repo.desc=The Woodcutter's Own Personal Blog - Using BashBlog (currently) and running for a few years now
 repo.owner=chunk
 repo.readme=/srv/git/the8woodcutter/README.md
 
 repo.url=mycgit
 repo.path=/srv/git/mycgit/.git
-repo.desc="MAKE ME A CGIT HOMIE G!!"
+repo.desc=Chunk's cgit project files and scripts
 repo.owner=chunk
 repo.readme=/srv/git/mycgit/README.md
