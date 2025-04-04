@@ -36,7 +36,7 @@ repo.owner=chunk@inspirenet.org
 repo.readme=/srv/git/mycgit/README.md
 
 
-section=Mirrored Repositories
+section=Mirrors
 
 repo.url=i2pd-tools
 repo.path=/srv/git/i2pd-tools/.git

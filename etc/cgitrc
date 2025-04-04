@@ -13,9 +13,9 @@ snapshots=tar.gz zip
 source-filter=/usr/lib/cgit/filters/syntax-highlighting.py
 about-filter=/usr/lib/cgit/filters/about-formatting.sh
 # REPO FILTERS:
-repo.email-filter=/usr/lib/cgit/filter/email-libravatar.lua
+repo.email-filter=/usr/lib/cgit/filter/email-libravatar.py
 repo.commit-filter=/usr/lib/cgit/filters/commit-links.sh
-repo.owner-filter=/usr/lib/cgit/filters/owner-links.lua
+#repo.owner-filter=/usr/lib/cgit/filters/owner-links.lua
 
 # README's:
 readme=:README.md
