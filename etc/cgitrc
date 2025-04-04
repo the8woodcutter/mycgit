@@ -74,6 +74,8 @@ remove-suffix=1
 local-time=1
 max-stats=quarter
 side-by-side-diffs=1
+section-sort=0
+repository-sort=age
 
 include=/etc/cgitrepos
 
